@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="orders@localhost" uuid="b9629ba2-af7f-4aa2-a537-83d2dd08c997">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://localhost:44444/orders</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
