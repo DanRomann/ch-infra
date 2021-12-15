@@ -3,10 +3,11 @@ version: "3"
 services:
   clickhouse-server:
     image: "yandex/clickhouse-server:21.8-alpine"
-    ports:
-      - "127.0.0.1:44444:8123"
-      - "127.0.0.1:44445:9000"
+#    ports:
+#      - "127.0.0.1:44444:8123"
+#      - "127.0.0.1:44445:9000"
     environment:
       CLICKHOUSE_DB: orders
       CLICKHOUSE_USER: kek
       CLICKHOUSE_PASSWORD: kek
+    network_mode: "host"
